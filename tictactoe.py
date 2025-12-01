@@ -3,7 +3,6 @@ import socket
 import json
 import time
 
-# --- Game Logic Utils ---
 def check_win(board):
     wins = [(0,1,2),(3,4,5),(6,7,8),(0,3,6),(1,4,7),(2,5,8),(0,4,8),(2,4,6)]
     for a,b,c in wins:
@@ -19,7 +18,6 @@ def print_board(board):
     print("---+---+---")
     print(f" {board[6]} | {board[7]} | {board[8]} \n")
 
-# --- Game Server ---
 def run_server(port):
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 允許 Port 重用，避免重開時卡住

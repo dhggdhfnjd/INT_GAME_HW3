@@ -2,7 +2,7 @@ import socket
 import os
 from common import send_json, recv_json, send_file, send
 
-HOST = '172.18.107.107'
+HOST = '140.113.17.12'
 PORT = 12345
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((HOST, PORT))

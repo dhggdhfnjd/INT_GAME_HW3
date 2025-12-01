@@ -5,7 +5,7 @@ import subprocess
 import threading
 from common import send_json, recv_json, recv_file, ensure_dir, send
 
-HOST = '172.18.107.107'
+HOST = '140.113.17.12'
 PORT = 12345
 # 每個玩家使用自己的下載目錄
 def get_download_dir(username):

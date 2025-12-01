@@ -1,4 +1,8 @@
-首先就是先去啟動server.py 透過 python server.py可以將它啟動
+首先就是先去啟動
+```
+server.py
+```
+透過 python server.py可以將它啟動
 接下來在執行的結果中可以獲取他的IP位址，這時候要在DB.py第十三行/dev_client.py第五行/player_client.py第八行這三個去改他們的HOST/SERVER值
 接下來應該就可以用選單進行上傳或是其他等等的操作了
 上傳遊戲主要會需要的是檔案的路徑，然後是只能去執行dev_client.py
